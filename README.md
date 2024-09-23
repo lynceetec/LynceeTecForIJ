@@ -1,3 +1,7 @@
+HOW TO INSTALL THE PLUGIN IN IMAGEJ
+Copy the file LynceeTec_ForIJ-x.x.x.jar to your ImageJ plugin directory : Installation Folder/ImageJ/Plugins/
+
+HOW TO CONFIGURE IDE TO COMPILE THE SOURCE CODE
 This is an example Maven project implementing an ImageJ 1.x plugin.
 
 It is intended as an ideal starting point to develop new ImageJ 1.x plugins

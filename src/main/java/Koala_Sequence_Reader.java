@@ -64,7 +64,7 @@ public class Koala_Sequence_Reader extends ImagePlus implements PlugIn {
         
 		//File intensity_bin = new File(new File(new File(working_dir,"Intensity"),"Float"),"Bin");
 		//File phase_bin = new File(new File(new File(working_dir,"Phase"),"Float"),"Bin");
-		//IJ.freeMomory();
+		//IJ.freeMemory();
 		FolderOpener opener = new FolderOpener();
 		GenericDialog dialog = new GenericDialog("Import Koala sequence");
 		dialog.addCheckbox("Open as a virtual stack ", true);

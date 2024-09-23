@@ -14,10 +14,10 @@
 
 	<groupId>com.lynceetec</groupId>
 	<artifactId>LynceeTec_ForIJ</artifactId>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 
 	<name>LynceeTecForIJ</name>
-	<url>https://github.com/jejmule/LynceeTecForIJ</url>
+	<url>https://github.com/lynceetec/LynceeTecForIJ</url>
 	<inceptionYear>2012</inceptionYear>
 	<organization>
 		<name>LyncéeTec</name>
@@ -86,7 +86,7 @@
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/jejmule/LynceeTecForIJ/issues</url>
+		<url>https://github.com/lynceetec/LynceeTecForIJ/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>None</system>
@@ -94,7 +94,9 @@
 
 	<properties>
 		<main-class>Koala_Bin_Reader</main-class>
+		<main-class>Koala_Cplx_Reader</main-class>
 		<main-class>Koala_Bin_Writer</main-class>
+		<main-class>LittleEndian</main-class>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>LyncéeTec SA</license.copyrightOwners>
 	</properties>
@@ -107,6 +109,6 @@
 	</dependencies>
 	<description>A collection of plugins to manage LynceeTec data in ImageJ</description>
 	<scm>
-		<url>https://github.com/jejmule/LynceeTecForIJ</url>
+		<url>https://github.com/lynceetec/LynceeTecForIJ</url>
 	</scm>
 </project>
